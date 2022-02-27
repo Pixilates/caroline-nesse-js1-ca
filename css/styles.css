@@ -1,0 +1,56 @@
+body {
+  background-color: #0c0c0c;
+  font-family: gudea;
+  color: white;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+.nav {
+  color: #262626;
+  background-color: #f5f5f5;
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-weight: 800;
+}
+
+.container img {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  max-width: 300px;
+}
+
+.fullname-error,
+.email-error,
+.message-error,
+.address-error {
+  color: red;
+  font-size: 0.7rem;
+  display: none;
+}
+
+.fullname,
+.email,
+.message,
+.address,
+button {
+  margin-top: 20px;
+  padding: 5px;
+}
